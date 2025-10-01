@@ -1,0 +1,9 @@
+import streamlit as st
+import streamlit.components.v1 as components
+
+st.title("Karya Scratch Saya 🎮")
+
+# 1211058830
+scratch_url = "https://scratch.mit.edu/projects/121058830/embed"
+
+components.iframe(scratch_url, width=485, height=402)
